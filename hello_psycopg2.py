@@ -23,7 +23,7 @@ cur.execute("""CREATE TABLE employees(
                 )""")
 
 # Наполняем таблицу
-cur.execute("INSERT INTO emloyees values(Null, 'Ivan', 'Ivanov', 1000)")
+cur.execute("INSERT INTO employees values(Null, 'Ivan', 'Ivanov', 1000)")
 conn.commit()
 
 # Выводим содержимое таблицы
